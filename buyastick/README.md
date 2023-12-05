@@ -1,4 +1,4 @@
-# Shopping Cart  
+# Buy A Stick
 A simple E-commerce website using Flask.
   
 ## Dependencies ##
@@ -18,8 +18,13 @@ A simple E-commerce website using Flask.
 4. Run the server (pipenv run python main.py)
 5. Enter localhost:5000 in the browser
 
+## Useful commands ##
+python -m pipenv install --dev
+python -m pipenv run --python 3.11 database.py
+python -m pipenv run --python 3.11 main.py
+python -m flask --app main.py run --debug
+
 ## Sample User ##
 Sample credentials present in existing database:
 Username - sample@example.com
 Password - sample
-
