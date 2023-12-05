@@ -19,10 +19,10 @@ A simple E-commerce website using Flask.
 5. Enter localhost:5000 in the browser
 
 ## Useful commands ##
-python -m pipenv install --dev
-python -m pipenv run --python 3.11 database.py
-python -m pipenv run --python 3.11 main.py
-python -m flask --app main.py run --debug
+1. python -m pipenv install --dev
+2. python -m pipenv run --python 3.11 database.py
+3. python -m pipenv run --python 3.11 main.py
+4. python -m flask --app main.py run --debug
 
 ## Sample User ##
 Sample credentials present in existing database:
